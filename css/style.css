@@ -210,7 +210,7 @@ figure {
         display: inline;
         list-style: none; }
         #colorlib-aside .colorlib-footer ul li a {
-          color: rgba(255, 255, 255, 0.3);
+          color: #2c98f0;
           padding: 4px; }
           #colorlib-aside .colorlib-footer ul li a:hover, #colorlib-aside .colorlib-footer ul li a:active, #colorlib-aside .colorlib-footer ul li a:focus {
             text-decoration: none;
@@ -524,6 +524,28 @@ body.offcanvas {
   padding: 1.5em;
   margin-top: 5px;
   border: 1px solid #e6e6e6 !important; }
+.panel-heading-custom {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 12px;
+  font-weight: 600;
+  font-size: 16px;
+  color: #333;
+  border-bottom: 1px solid #f0f0f0;
+  padding-bottom: 4px;
+}
+
+.panel-heading-custom .school {
+  font-weight: 700;
+  color: #2c3e50;
+}
+
+.panel-heading-custom .date {
+  font-style: italic;
+  color: #666;
+  font-size: 14px;
+}
 
 .timeline-centered {
   position: relative;
@@ -1055,6 +1077,15 @@ body.offcanvas {
             -moz-border-radius: 4px;
             -ms-border-radius: 4px;
             border-radius: 4px; }
+            .project .desc .con .icon span.button-style {
+            display: inline;
+            padding: 5px;
+            background: rgba(255, 255, 255, 0.5);
+            border-radius: 4px;
+            color: #333333;
+            cursor: default; /* 移除手指指针 */
+            pointer-events: none; /* 完全禁用交互 */
+          }
         .project .desc .con .icon i {
           font-size: 16px;
           color: #333333; }
@@ -1073,12 +1104,12 @@ body.offcanvas {
       -webkit-transform: translate3d(0, -15px, 0);
       transform: translate3d(0, -15px, 0);
       margin-bottom: 15px; }
-      .project .desc h3 a {
+      .project .desc h3 {
         color: #fff; }
     .project .desc span {
       display: block;
       color: rgba(255, 255, 255, 0.7);
-      font-size: 13px;
+      font-size: 15px;
       -webkit-transition: -webkit-transform 0.3s, opacity 0.3s;
       -webkit-transition: opacity 0.3s, -webkit-transform 0.3s;
       transition: opacity 0.3s, -webkit-transform 0.3s;
