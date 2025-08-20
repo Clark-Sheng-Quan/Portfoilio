@@ -403,6 +403,7 @@ body.offcanvas {
 .colorlib-about,
 .colorlib-services,
 .colorlib-contact {
+  min-height: 90vh;
   padding-top: 4em;
   padding-bottom: 9em;
   clear: both;
@@ -1546,3 +1547,5 @@ body.offcanvas {
 
 .js .animate-box {
   opacity: 0; }
+
+.tooltip
