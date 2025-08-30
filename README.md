@@ -2,7 +2,7 @@
 
 This is my personal **Portfolio Website**, showcasing my projects, skills, and experiences as a **Full-Stack Web Developer** and **Data Analytics Enthusiast**.  
 
-🔗 Live Website: [View Portfolio](https://clark-sheng-quan.github.io/Portfoiliao/)  
+🔗 Live Website: [View Portfolio](https://clark-sheng-quan.github.io/Portfoilio/)  
 
 ---
 
